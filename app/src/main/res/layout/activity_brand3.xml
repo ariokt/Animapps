@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".brand1"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:id="@+id/brand2_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bentley"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/bnamet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/brand2_image"
+                android:layout_toEndOf="@id/brand2_image"
+                android:text="@string/bnamet"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/bname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/brand2_image"
+                android:layout_toRightOf="@id/brand2_image"
+                android:layout_below="@id/bnamet"
+                android:text="@string/brand_name3"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/fnamet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/brand2_image"
+                android:layout_toEndOf="@id/brand2_image"
+                android:layout_below="@id/bname"
+                android:text="@string/fnamet"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/brand2_image"
+                android:layout_toRightOf="@id/brand2_image"
+                android:layout_below="@id/fnamet"
+                android:text="@string/fname3"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/hnamet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/brand2_image"
+                android:layout_toEndOf="@id/brand2_image"
+                android:layout_below="@id/fname"
+                android:text="@string/hnamet"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/hname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/brand2_image"
+                android:layout_toRightOf="@id/brand2_image"
+                android:layout_below="@id/hnamet"
+                android:text="@string/hname3"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/dinfot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dinfot"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/dinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dinfo3"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sumber"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+</ScrollView>
